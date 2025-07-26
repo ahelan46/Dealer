@@ -1,0 +1,142 @@
+h1 a, h2 a {
+    color:red;
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+    
+body{
+    
+    background-image: url("static/css/bachground/bmw-xm-gallery-01.avif");
+    color: rgb(226, 110, 43);
+    background-size:contain;
+}
+.page-header{
+    background-color: #c25100;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:activate{
+    color:white;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family:'Lobster',cursive ;
+}
+.date{
+    color: #828282;;
+}
+.save{
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width:100px;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited{
+    color: white;
+    float: right;
+    font-size: 26px;
+    margin-right: 20px;
+}
+.post{
+    margin-bottom: 70px;
+    background-image:url('/static/css/bachground/pexels-pixabay-531880.jpg') ;
+    
+     background-size: cover; 
+     border-radius: 20px;
+     padding: 6px;
+}
+ .post h2 a,
+ .post h2 a:visited{
+    color: red;
+    
+ }
+
+ .post > .date,
+ .post > .actions{
+    
+    float: right;
+ }
+ .btn-secondary,
+ .btn-secondary:visited{
+    color: #c25100;
+    background: none;
+    border-color: #c25100;
+    margin-left: 15px;
+ }
+
+
+
+
+ .btn-secondary:hover{
+    color: white;
+    background-color: #c25100;
+ }
+ header{
+    background-image:url('/static/css/bachground/bmw-xm-gallery-01.avif') ;
+     background-size: cover;   
+    background-color:yellow;
+   
+ }
+ hr{
+    border-color: green;
+ }
+ 
+.post-audio{
+    width: 100%;
+    max-width: 800px;
+    padding-left: 27%;
+    padding-top: 2%;
+    padding-left: 37%;
+
+
+}
+.post-video {
+    width: 100%;
+    max-width: 800px;
+    padding-left: 26%;
+    padding-top: 6%;
+
+    
+ }
+
+ .post-image{
+    
+    display:block ;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-left: 8%;
+ }
+ body{
+    background-image:url('/static/css/bachground/1_xMuIOwjliGUPjkzukeWKfw.webp') ;
+    
+     background-size: cover; 
+ background-color:black;
+ }
+ .post:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 15px rgba(0,0,0,0.1);
+ }
